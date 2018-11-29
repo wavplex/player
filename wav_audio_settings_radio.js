@@ -81,8 +81,8 @@ var hap_settings = {
 	/* useBtnRollovers: true/false. Use rollovers on buttons */
 	useBtnRollovers: false,
 	/* buttonsUrl: url of the buttons for normal and rollover state */
-	buttonsUrl: {pause: 'https://wavplex.github.io/player/wav_turnon.png',
-				 play: 'https://wavplex.github.io/player/wav_turnoff.png'},
+	buttonsUrl: {pause: 'https://cdn.jsdelivr.net/gh/wavplex/player/wav_turnon.png',
+				 play: 'https://cdn.jsdelivr.net/gh/wavplex/player/wav_turnoff.png'},
 				 
 	/* useAlertMessaging: true/false. Alert error messages to user */
 	useAlertMessaging: false,
