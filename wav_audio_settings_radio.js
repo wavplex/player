@@ -35,7 +35,7 @@ var hap_settings = {
 	ofm_result_limit: 0,
 
 	/*defaultVolume: 0-1 (Irrelevant on ios mobile) */
-	defaultVolume:0.5,
+	defaultVolume:0.7,
 	/*autoPlay: true/false (false on mobile by default) */
 	autoPlay:true,
 	/*autoLoad: auto/metadata/none (auto start sound load) */
