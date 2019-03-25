@@ -2,7 +2,7 @@
 #componentWrapper .playerHolder{
 	width:100%;
 	height:100px;
-	background-image: url('http://tistory1.daumcdn.net/tistory/363957/skin/images/player_bg.png'); 
+	background-image: url('https://cdn.jsdelivr.net/gh/wavplex/player/wav_player_bg.png'); 
 	background-repeat: repeat-x; 
 	
 	/*-moz-box-shadow: 0px 5px 5px #111;
