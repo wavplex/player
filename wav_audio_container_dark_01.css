@@ -1,0 +1,211 @@
+/* player holder */
+#componentWrapper .playerHolder{
+	width:100%;
+	height:100px;
+	background-image: url('https://cdn.jsdelivr.net/gh/wavplex/player/wav_player_bg_dark_01.png'); 
+	background-repeat: repeat-x; 
+
+	/*-moz-box-shadow: 0px 5px 5px #111;
+	-webkit-box-shadow: 0px 5px 5px #111;
+	box-shadow: 0px 5px 5px #111;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111');*/
+}
+
+/* player audio name mask for the name scroll function. */
+#componentWrapper .player_mediaName_Mask{
+	position:relative;
+	top:9px;
+	left:20px;
+	float:left;
+	
+	width:60%;
+	width: -webkit-calc(100% - 135px);
+    width: -moz-calc(100% - 135px);
+    width: calc(100% - 135px);
+	
+	height:20px;
+	overflow:hidden;
+
+}
+
+/* player audio name */
+#componentWrapper .player_mediaName{
+	position:absolute;
+	top:1px;
+	left:0px;
+	white-space: nowrap;
+	
+	font-size:14px;
+	color:#fff;
+}
+
+/* player audio time */
+#componentWrapper .player_mediaTime{
+	position:relative;
+	top:11px;
+	float:right;
+	margin-right:20px;
+	
+	color:#fff;
+	font-size:12px;
+}
+
+#componentWrapper .player_mediaTime_current{
+	position:relative;
+	top:0px;
+	left:0px;
+	float:left;
+}
+
+#componentWrapper .player_mediaTime_total{
+	position:relative;
+	top:0px;
+	left:0px;
+	float:left;
+}
+
+
+/* player progress, serves as hit as well */
+#componentWrapper .player_progress{
+	position:absolute;
+	top:-8px;
+	left:5px;
+	/* for hit */
+	
+	width:90%;
+	width: -webkit-calc(100% - 40px);
+    width: -moz-calc(100% - 40px);
+    width: calc(100% - 40px);
+	
+	height:16px;
+	/*background:green;*/
+}
+
+#componentWrapper .progress_bg{
+	position:relative;
+	width:100%;
+	top:5px;
+	height:6px;
+}
+
+#componentWrapper .load_progress{
+	position:absolute;
+	top:5px;
+	height:6px;
+}
+
+#componentWrapper .play_progress{
+	position:absolute;
+background: -moz-linear-gradient(left, #359af2 0%, #23cd6f 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #359af2), color-stop(100%, #23cd6f));
+background: -webkit-linear-gradient(left, #359af2 0%, #23cd6f 100%);
+background: -o-linear-gradient(left, #359af2 0%, #23cd6f 100%);
+background: -ms-linear-gradient(left, #359af2 0%, #23cd6f 100%);
+background: linear-gradient(to right, #359af2 0%, #23cd6f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#359af2', endColorstr='#23cd6f', GradientType=1 );
+	top:5px;
+	height:6px;	
+}
+
+#componentWrapper .player_progress_tooltip{
+	position:relative;
+	top:-25px;
+	/* left is set in code */
+	width:70px;
+	height:16px;
+	background:#333;
+	display:none;
+	text-align:center;
+	
+	-moz-box-shadow: 1px 1px 1px #222;
+	-webkit-box-shadow: 1px 1px 1px #222;
+	box-shadow: 1px 1px 1px #222;
+}
+
+#componentWrapper .player_progress_tooltip p {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffffff;
+	margin:0;
+	line-height:18px;
+}
+
+/* player holder for (previous,play/pause,next) buttons */
+#componentWrapper .player_controls{
+	position:relative;
+	width:100%;
+	top:20px;
+	left:15px;
+	float:left;
+	clear:both;
+}
+
+/* player play/pause */
+#componentWrapper .controls_toggle{
+	position:relative;
+	top:10px;
+	width:30px;
+	height:10px;
+	float:left;
+	margin-right:8px;
+}
+
+#componentWrapper .player_volume{
+	position:relative;
+	height:26px;
+	float:left;
+}
+
+/* player volume, serves as hit as well */
+#componentWrapper .volume_seekbar{
+	position:relative;
+	left:-14px;
+	top:14px;
+	/* for hit */
+	width:100px;
+	height:16px;
+	/*background:green;*/
+	float:left;
+	margin-left:0px;
+}
+
+#componentWrapper .volume_bg{
+	position:absolute;
+	top:5px;
+	left:10px;
+	width:100px;
+	height:6px;
+}
+
+#componentWrapper .volume_level{
+	position:absolute;
+	top:5px;
+	left:10px;
+	width:0px;
+	height:6px;
+	background:#eeeeee;
+}
+
+#componentWrapper .player_volume_tooltip{
+	position:relative;
+	top:-17px;
+	/* left is set in code */
+	width:35px;
+	height:18px;
+	background:#333;
+	display:none;
+	text-align:center;
+	
+	-moz-box-shadow: 1px 1px 1px #222;
+	-webkit-box-shadow: 1px 1px 1px #222;
+	box-shadow: 1px 1px 1px #222;
+}
+
+#componentWrapper .player_volume_tooltip p {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffffff;
+	margin:0;
+	line-height:18px;
+}
